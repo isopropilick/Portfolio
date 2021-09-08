@@ -1,0 +1,76 @@
+pipeline {
+    agent any
+triggers {
+    GenericTrigger(
+        causeString: 'Triggered by job # ${Buildid} from ${Buildurl}',
+        genericHeaderVariables:[
+            [key: 'Returnurl', regexpFilter: ''],
+            [key: 'Testurl', regexpFilter: ''],
+            [key: 'Buildurl', regexpFilter: ''],
+            [key: 'Buildid', regexpFilter: ''],
+            [key: 'Buildnumber', regexpFilter: '']
+        ],
+        printContributedVariables: true,
+        printPostContent: true,
+        regexpFilterExpression: '',
+        regexpFilterText: '',
+        tokenCredentialId: 'commtok'
+    )
+}
+    environment {
+        PATH = "$PATH:/DEV"
+        CAUSE = "${currentBuild.getBuildCauses()[0].shortDescription}"
+        }
+    stages {
+        stage('e2e test'){
+            steps {
+                sh "rm -f -R allure-results"
+                sh "mkdir allure-results"
+                sh 'npm install'
+                sh 'npm test'
+                script{
+                    // Fake allure gen
+                    def root = readJSON file:'dummy.json'
+                    def keyList = root['files'].keySet()
+                    def filesmap = [:]
+                    for (String key : keyList){
+                        filesmap[key] = root.files."${key}"
+                        writeJSON file: "allure-results/${key}", json:filesmap[key]
+                    // Fake allure gen
+                    }
+                }
+            }
+        }
+        stage('lighthouse test'){
+            steps{
+                script{
+                    sh 'npx lighthouse-ci https://www.google.com --jsonReport --report=.'
+                    lighthouseReport('./report.json')
+                }
+            }
+        }
+        stage('Process build') {
+            steps {
+                script{
+                    def  FILES_LIST = sh (script: "ls allure-results/", returnStdout: true).trim()
+                    echo "FILES_LIST : ${FILES_LIST}"
+                    def parsedfiles = FILES_LIST.split(" ")
+                    echo "${parsedfiles}"
+                    if ("${env.CAUSE}".contains("Triggered by job")){
+                        def data = readJSON file:'dummy.json'
+                        def quit = httpRequest url:"${returnurl}", httpMode: 'POST', contentType: 'TEXT_PLAIN', requestBody:"${data}"
+                    }else{
+                        println("Local execution")
+                    }
+                    allure([
+                        includeProperties: false,
+                        jdk: '',
+                        properties: [],
+                        reportBuildPolicy: 'ALWAYS',
+                        results: [[path: 'allure-results']]
+                    ])
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,682 @@
+{"files":{
+   "17809115-d024-45e9-99d9-f9f9b66daa03-container.json":{
+      "uuid":"17809115-d024-45e9-99d9-f9f9b66daa03",
+      "children":[
+         "dba6b529-012d-4ee2-96ba-8e6c109a2f17"
+      ],
+      "befores":[
+         
+      ],
+      "afters":[
+         
+      ],
+      "name":"Unnamed"
+   },
+   "dba6b529-012d-4ee2-96ba-8e6c109a2f17-result.json":{
+      "uuid":"dba6b529-012d-4ee2-96ba-8e6c109a2f17",
+      "historyId":"17e69ca272011c9af728e4633d06ac57",
+      "status":"passed",
+      "statusDetails":{
+         
+      },
+      "stage":"finished",
+      "steps":[
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901626636,
+            "name":"Given Abro el portal de Montepio",
+            "stop":1626901636246
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901636247,
+            "name":"Then Cierro el modal informativo",
+            "stop":1626901636295
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901636295,
+            "name":"Then Hago click en el boton \"Registro\"",
+            "stop":1626901642751
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901642752,
+            "name":"Then Espero 8 segundos",
+            "stop":1626901650767
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901650767,
+            "name":"Then Selecciono masculino como mi genero",
+            "stop":1626901650815
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901650815,
+            "name":"Then Ingreso mi nombre",
+            "stop":1626901650904
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901650904,
+            "name":"Then Ingreso mi segundo nombre",
+            "stop":1626901650974
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901650974,
+            "name":"Then Ingreso mi apellido paterno",
+            "stop":1626901651059
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651060,
+            "name":"Then Ingreso mi apellido materno",
+            "stop":1626901651130
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651130,
+            "name":"Then Ingreso mi RFC",
+            "stop":1626901651219
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651220,
+            "name":"Then Ingreso mi correo electronico",
+            "stop":1626901651335
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651335,
+            "name":"Then Confirmo mi correo electronico",
+            "stop":1626901651435
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651435,
+            "name":"Then Ingreso mi celular",
+            "stop":1626901651511
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651511,
+            "name":"Then Ingreso mi contrasena",
+            "stop":1626901651584
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651584,
+            "name":"Then Confirmo mi contrasena",
+            "stop":1626901651659
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651659,
+            "name":"Then Ingreso mi ano de nacimiento",
+            "stop":1626901651714
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651714,
+            "name":"Then Ingreso mi mes de nacimiento",
+            "stop":1626901651759
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651759,
+            "name":"Then Ingreso mi dia de nacimiento",
+            "stop":1626901651803
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651803,
+            "name":"Then Acepto los terminos y condiciones",
+            "stop":1626901651843
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651843,
+            "name":"Then Hago click en el boton \"siguiente\"",
+            "stop":1626901651884
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901651884,
+            "name":"Then Espero 8 segundos",
+            "stop":1626901659898
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901659899,
+            "name":"Then Selecciono mi pais de nacimiento",
+            "stop":1626901659940
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901659940,
+            "name":"Then Selecciono mi nacionalidad",
+            "stop":1626901659985
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901659985,
+            "name":"Then Ingreso mi codigo postal",
+            "stop":1626901660046
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901660046,
+            "name":"Then Selecciono un pais",
+            "stop":1626901660094
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901660094,
+            "name":"Then Espero 8 segundos",
+            "stop":1626901668103
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901668103,
+            "name":"Then Selecciono un estado",
+            "stop":1626901668131
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901668131,
+            "name":"Then Espero 8 segundos",
+            "stop":1626901676132
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901676132,
+            "name":"Then Selecciono una delegacion",
+            "stop":1626901676161
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901676161,
+            "name":"Then Espero 8 segundos",
+            "stop":1626901684165
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901684165,
+            "name":"Then Selecciono una colonia",
+            "stop":1626901684191
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901684191,
+            "name":"Then Ingreso mi calle",
+            "stop":1626901684256
+         },
+         {
+            "status":"passed",
+            "statusDetails":{
+               
+            },
+            "stage":"finished",
+            "steps":[
+               
+            ],
+            "attachments":[
+               
+            ],
+            "parameters":[
+               
+            ],
+            "start":1626901684256,
+            "name":"Then Ingreso mi numero exterior",
+            "stop":1626901684311
+         }
+      ],
+      "attachments":[
+         
+      ],
+      "parameters":[
+         
+      ],
+      "labels":[
+         {
+            "name":"thread",
+            "value":"3148"
+         },
+         {
+            "name":"feature",
+            "value":"Pagina de registro"
+         },
+         {
+            "name":"tag",
+            "value":"@issue=TEST-1"
+         }
+      ],
+      "links":[
+         
+      ],
+      "start":1626901626633,
+      "name":"Happy Path",
+      "fullName":"features\\myfeature.feature:Pagina de registro:Happy Path",
+      "description":"",
+      "stop":1626901684311
+   }
+}
+}
